@@ -24,7 +24,7 @@ namespace SmartLandAPI.Models
 
 
 
-        // Add the UserId property here
+        
         public int? UserId { get; set; }
 
         
@@ -32,3 +32,4 @@ namespace SmartLandAPI.Models
 
     }
 }
+
