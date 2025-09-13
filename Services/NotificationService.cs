@@ -20,7 +20,7 @@ namespace SmartLandAPI.Services
                 UserId = userId,
                 Title = title,
                 Message = message,
-                ImageUrl = imageUrl, // Add this property to your Notification model if not exists
+                ImageUrl = imageUrl, 
                 IsRead = false,
                 CreatedAt = DateTime.UtcNow
             };
@@ -30,3 +30,4 @@ namespace SmartLandAPI.Services
         }
     }
 }
+
