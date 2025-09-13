@@ -22,8 +22,9 @@ namespace SmartLandAPI.Models
         public string SoilType {  get; set; }
 
         public string Season {  get; set; }
-        public string? CropType { get; set; } // e.g., "Vegetables", "Fruits", "Grains", "Legumes"
+        public string? CropType { get; set; } 
         public int? UserId { get; internal set; }
 
     }
 }
+
