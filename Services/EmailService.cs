@@ -27,8 +27,7 @@ namespace SmartLandAPI.Services
             {
                 throw new ArgumentException("Invalid email address format.", nameof(to));
             }
-
-            // Fetch values from appsettings.json
+            
             var smtpSection = _configuration.GetSection("Jwt:Smtp");
             var host = smtpSection["Host"];
             var port = int.Parse(smtpSection["Port"]);
@@ -56,3 +55,4 @@ namespace SmartLandAPI.Services
         }
     }
 }
+
